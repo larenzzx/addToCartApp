@@ -1,0 +1,35 @@
+.container {
+    padding-inline: 2rem;
+}
+
+.header {
+    padding-block: 2rem;
+    color: $rose-900;
+}
+
+.card-wrapper {
+
+}
+
+.cards {
+    // padding: 2rem;
+}
+
+.cart {
+    background-color: $rose-50;
+    border-radius: $size-base;
+    margin-block: $size-lg;
+    padding: $size-md;
+
+    .emptyCart {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.cartHeader {
+    color: $primary-color;
+    font-weight: $weight-700;
+    font-size: $size-md;
+    margin-bottom: $size-lg;
+}

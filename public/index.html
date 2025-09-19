@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desserts Add To Cart App</title>
+    <link rel="stylesheet" href="../dist/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-wrapper">
+        <h1 class="header">Desserts</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="imgWrap">
+              <img
+                class="imgItem"
+                src="/public/assets/images/image-waffle-mobile.jpg"
+                alt=""
+              />
+              <!-- <img src="" alt="" /> -->
+              <button class="btn flex align-center gap">
+                <img src="/public/assets/images/icon-add-to-cart.svg" alt="" />
+                Add to Cart
+              </button>
+            </div>
+
+            <div>
+              <span class="category">Waffle</span>
+              <p class="item">Waffle with Berries</p>
+              <span class="price">$6.50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart">
+        <p class="cartHeader">Your Cart (0)</p>
+        <div class="flex flex-col gap">
+          <img class="emptyCart" src="/public/assets/images/illustration-empty-cart.svg" alt="" />
+          <span class="text-center">Your added items will appear here</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

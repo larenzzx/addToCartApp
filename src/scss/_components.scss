@@ -1,0 +1,37 @@
+.btn {
+    background-color: $rose-100;
+    color: $rose-900;
+    outline: none;
+    border: 1px solid $rose-400;
+    padding: $size-sm $size-base;
+    border-radius: $size-md;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+        width: $size-md;
+    }
+
+    &:hover {
+        border-color: $primary-color;
+        color: $primary-color;
+    };
+}
+
+.cart-btn {
+    background-color: $rose-900;
+    color: $rose-100;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: $size-lg;
+}
+
+.imgWrap {
+    position: relative;
+}

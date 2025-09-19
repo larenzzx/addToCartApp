@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+    color: $rose-400;
+    font-weight: $weight-600;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: .5rem;
+}
+
+
+.flex-col {
+    flex-direction: column;
+}
